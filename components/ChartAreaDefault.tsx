@@ -36,9 +36,9 @@ const chartConfig = {
     label: "English",
     color: "var(--chart-3)",
   },
-  "Social Studies": {
+  SocialStudies: {
     label: "Social Studies",
-    color: "var(--chart-4)",
+    color: "#16A34A",
   },
 } satisfies ChartConfig
 
@@ -99,9 +99,9 @@ export default function ChartAreaDefault() {
             <Area
               dataKey="Social Studies"
               type="natural"
-              fill="var(--color-Social Studies)"
+              fill="var(--color-SocialStudies)"
               fillOpacity={0.4}
-              stroke="var(--color-Social Studies)"
+              stroke="var(--color-SocialStudies)"
             />
           </AreaChart>
         </ChartContainer>
